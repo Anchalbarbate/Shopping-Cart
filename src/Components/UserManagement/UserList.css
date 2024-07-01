@@ -1,0 +1,35 @@
+.container{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.container-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container-table td, .container-table th {
+    border: 1px solid #686565;
+    padding: 8px;
+}
+
+.container-table tr:nth-child{
+    background-color:#f5f1f1;
+ }
+
+.container-table tr:hover {
+    background-color: #bcdced;
+}
+
+.container-table thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: 'center';
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+

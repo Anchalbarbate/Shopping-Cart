@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Start the sidebar off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  transition: left 0.3s ease; /* Add a transition effect */
+}
+
+.sidebar.open {
+  left: 0; /* Slide the sidebar into view when it's open */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding: 5px 0px;
+  cursor: pointer;
+}
+.sidebar ul {
+  list-style-type: none; 
+  padding-top: 40px;
+ 
+}
+
+
+
+.sidebar a {
+  display: block; /* Make links block-level elements */
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  padding: 15px 0px;
+}
+.sidebar a:hover {
+  background-color: rgb(168, 237, 237);
+  
+}
+
+.sidebar li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
+
+
